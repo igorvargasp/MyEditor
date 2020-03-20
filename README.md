@@ -26,4 +26,4 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-Link do executavel: https://drive.google.com/file/d/1e-wSEg7dsJMQiBe8ANpRhpLv-aoXV-KV/view?usp=sharing
+Link do executavel: shorturl.at/fxz69
