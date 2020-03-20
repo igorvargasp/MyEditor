@@ -1,23 +1,40 @@
 {
-  "name": "escola_javascript_editor",
+  "name": "MyEditor",
+  "author": "vip <igorvargasp@hotmail.com>",
+  "homepage": "https://github.com/igorvargasp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
   },
+  "main": "background.js",
   "dependencies": {
+    "@appsflare/quill-image-resize-module": "^3.0.3",
+    "bulma": "^0.8.0",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "highlight.js": "^9.18.1",
+    "quill": "^1.3.7",
+    "quill-emoji": "^0.1.7",
+    "quill-image-drop-module": "^1.0.3",
+    "vue": "^2.6.11",
+    "vue-quill-editor": "^3.0.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
     "babel-eslint": "^10.0.3",
+    "electron": "6.0.0",
+    "electron-builder": "^22.4.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
+    "vue-cli-plugin-electron-builder": "^1.4.6",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

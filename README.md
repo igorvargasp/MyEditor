@@ -1,4 +1,7 @@
-# escola_javascript_editor
+# MyEditor
+
+Um simples editor de texto desenvolvido em Electron + Vuejs
+
 
 ## Project setup
 ```
@@ -22,3 +25,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Link do executavel: https://drive.google.com/file/d/1e-wSEg7dsJMQiBe8ANpRhpLv-aoXV-KV/view?usp=sharing
